@@ -125,3 +125,110 @@ span {
   margin-top: -240px;
   width: 250px;
 }
+
+@media screen and (max-width:900px) {
+  
+  body {
+    background-size: 450px;
+  }
+  .top-logo img{
+    position: relative;    
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    left: 0px;
+    top: 30px;
+  }
+  .line {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .nav-bar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    left: 0px;
+    top: 20px;
+    list-style-type: none;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  .heading h1{
+    position: relative;
+    left: 160px;
+    top: 20px;
+    font-size: 60px;
+    font-family: "Merriweather";
+    font-weight: 900;
+    color: #333333;
+  }
+  span {
+    font-family: "Merriweather";
+    position: relative;
+    right: 135px;
+    bottom: -40px;
+    color: transparent;
+    -webkit-text-stroke: 1px #333333;
+  }
+  .heading p {
+    position: relative;
+    left: 235px;
+    top: 20px;
+    bottom: 0px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .logos {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 200px;
+    flex-direction: row;
+  }
+  .icon {
+    height: 20px;
+  }
+  .button .check{
+    position: relative;
+    left: 40px;
+    top: -340px;
+  }
+  .dotline img {
+    display: none;    
+  }
+  .profile{
+    position: relative;
+    margin-left: 0px;
+    margin-top: -150px;
+    text-align: center;
+  }
+  .rightbottom h1{
+    margin-left: 0px ;
+    margin-top: -365px;
+    font-weight: 900;
+    font-size: 90px;
+  }
+  .rightbottom p{
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+  
+  }
+  .rightbottom .comma {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .d-img img{
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+    margin-left: auto;
+    margin-top: -20px;
+  }
+  .downarrow img {
+    display: none;  
+  }  
+}
